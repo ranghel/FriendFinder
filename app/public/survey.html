@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Survey</title>
+
+    <!-- Latest compiled and minified CSS & JS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+    <!-- Font Awesome Glyphicons -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
+    <!-- Chosen -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
+
+</head>
+
+<body>
+
+<div class="container">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h2 class="panel-title">Take the quiz to find a match</h2>
+        </div>
+        <div class="panel-body">
+            <form>
+                <div class="form-group">
+                    <label for="name">Your Name (Required)</label>
+                    <input type="text" id="name" class="form-control" required="">
+                </div>
+                <div class="form-group">
+                    <label for="image">Image of Yourself (Enter a URL - Required)</label>
+                    <input type="text" id="image" class="form-control" required="">
+                </div>
+
+                <!--Survey Questions-->
+                <!--Survey Question 1-->
+                <div class="form-group">
+                    <label for="question1">Your mind is always buzzing with unexplored ideas and plans.</label>
+                    <select class="form-control form-dropdown" id="question1">
+                        <option></option>
+                        <option>1 (Strongly Disagree)</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5 (Strongly Agree)</option>
+                    </select>
+                </div>
+                <!--Survey Question 2-->
+                <div class="form-group">
+                    <label for="question2">Generally speaking, you rely more on your experience than your imagination.</label>
+                    <select class="form-control form-dropdown" id="question2">
+                        <option></option>
+                        <option>1 (Strongly Disagree)</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5 (Strongly Agree)</option>
+                    </select>
+                </div>
+                <!--Survey Question 3-->
+                <div class="form-group">
+                    <label for="question3">You find it easy to stay relaxed and focused even when there is some pressure.</label>
+                    <select class="form-control form-dropdown" id="question3">
+                        <option></option>
+                        <option>1 (Strongly Disagree)</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5 (Strongly Agree)</option>
+                    </select>
+                </div>
+                <!--Survey Question 4-->
+                <div class="form-group">
+                    <label for="question4">You rarely do something just out of sheer curiosity.</label>
+                    <select class="form-control form-dropdown" id="question4">
+                        <option></option>
+                        <option>1 (Strongly Disagree)</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5 (Strongly Agree)</option>
+                    </select>
+                </div>
+                <!--Survey Question 5-->
+                <div class="form-group">
+                    <label for="question5">People can rarely upset you.</label>
+                    <select class="form-control form-dropdown" id="question5">
+                        <option></option>
+                        <option>1 (Strongly Disagree)</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5 (Strongly Agree)</option>
+                    </select>
+                </div>
+                <!--Survey Question 6-->
+                <div class="form-group">
+                    <label for="question6">It is often difficult for you to relate to other people’s feelings.</label>
+                    <select class="form-control form-dropdown" id="question6">
+                        <option></option>
+                        <option>1 (Strongly Disagree)</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5 (Strongly Agree)</option>
+                    </select>
+                </div><!--Survey Question 7-->
+                <div class="form-group">
+                    <label for="question7">In a discussion, truth should be more important than people’s sensitivities.</label>
+                    <select class="form-control form-dropdown" id="question7">
+                        <option></option>
+                        <option>1 (Strongly Disagree)</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5 (Strongly Agree)</option>
+                    </select>
+                </div>
+                <!--Survey Question 8-->
+                <div class="form-group">
+                    <label for="question8">You rarely get carried away by fantasies and ideas.</label>
+                    <select class="form-control form-dropdown" id="question8">
+                        <option></option>
+                        <option>1 (Strongly Disagree)</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5 (Strongly Agree)</option>
+                    </select>
+                </div>
+                <!--Survey Question 9-->
+                <div class="form-group">
+                    <label for="question9">You think that everyone’s views should be respected regardless of whether they are supported by facts or not.</label>
+                    <select class="form-control form-dropdown" id="question9">
+                        <option></option>
+                        <option>1 (Strongly Disagree)</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5 (Strongly Agree)</option>
+                    </select>
+                </div>
+                <!--Survey Question 10-->
+                <div class="form-group">
+                    <label for="question10">You feel more energetic after spending time with a group of people.</label>
+                    <select class="form-control form-dropdown" id="question10">
+                        <option></option>
+                        <option>1 (Strongly Disagree)</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5 (Strongly Agree)</option>
+                    </select>
+                </div>
+                <!--END of Survey Questions-->
+                <button type="submit" class="btn btn-default" id="submitBtn">Submit Answers</button>
+                <div class="error"></div>
+            </form>
+        </div>
+    </div>
+
+    <!--Friend Modal-->
+    <div class="modal fade" id="resultModal" tabindex="-1" role="dialog" aria-labelledby="resultModalLabel">
+        <div class="modal-dialog" role="document">
+            <!--Modal Content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">×</button>
+                    <h2 class="modal-title"><strong>Best Match</strong></h2>
+                </div>
+                <div class="modal-body">
+                    <h2 id="matchName"></h2>
+                    <div class="matchImg"></div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End of Friend Modal-->
+</div>
+
+<script type="text/javascript">
+    // Chosen CSS
+    var config = {
+        '.chosen-select'           : {},
+        '.chosen-select-deselect'  : {allow_single_deselect:true},
+        '.chosen-select-no-single' : {disable_search_threshold:10},
+        '.chosen-select-no-results': {no_results_text:'Oops, nothing found!'},
+        '.chosen-select-width'     : {width:"95%"}
+    }
+    for (var selector in config) {
+        $(selector).chosen(config[selector]);
+    }
+    // Capture the form inputs
+    $("#submit").on("click", function(){
+        // Form validation
+        function validateForm() {
+            var validForm = true;
+            $('.form-control').each(function() {
+                if ( $(this).val() === '' )
+                    validForm = false;
+            });
+            $('.chosen-select').each(function() {
+                if( $(this).val() === "")
+                    validForm = false
+            });
+            return validForm;
+        }
+        // If all required fields are filled
+        if (validateForm() == true)
+        {
+            // Create an object for the user's data
+            var userData = {
+                name: $("#name").val().trim(),
+                image: $("#image").val().trim(),
+                answers: [$("#question1").val(), $("#question2").val(), $("#question3").val(), $("#question4").val(), $("#question5").val(), $("#question6").val(), $("#question7").val(), $("#question8").val(), $("#question9").val(), $("#question10").val(), ]
+            }
+            // Grab the URL of the website
+            var currentURL = window.location.origin;
+            // AJAX post the data to the friends API.
+            $.post(currentURL + "/api/friends", userData, function(data){
+                console.log(data);
+                // Grab the result from the AJAX post so that the best match's name and photo are displayed.
+                $("#matchName").text(data.name);
+                $('#matchImg').attr("src", data.image);
+                // Show the modal with the best match
+                $("#resultsModal").modal('toggle');
+            });
+        }
+        else
+        {
+            alert("Please fill out all fields before submitting!");
+        }
+
+        return false;
+    });
+
+    </script>
+
+</body>
+
+</html>
